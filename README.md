@@ -19,6 +19,7 @@ Accessible Dataset Viewer: An integrated feature that allows users to view the c
 Responsive Design: The interface is designed to be accessible on both desktop and mobile devices.
 
 ## 📊 About the Dataset
+![dataset_img.PNG](https://github.com/thorlikondasivaprasad/Crop-Prediction-Flask-App/blob/master/dataset_img.PNG)
 The model was trained on the Crop_recommendation.csv dataset, which contains 2200 data points. It includes the following key environmental and soil-related features:
 N: Ratio of Nitrogen content in the soil.
 P: Ratio of Phosphorus content in the soil.
