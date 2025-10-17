@@ -10,8 +10,11 @@ This uncertainty can lead to lower yields, financial losses, and inefficient use
 
 # ✨ Features
 Intuitive Prediction Form: A simple and clean UI where users can input soil and environmental parameters.
+
 Instant Crop Recommendation: Utilizes a pre-trained machine learning model to provide an immediate prediction for the most suitable crop.
+
 Accessible Dataset Viewer: An integrated feature that allows users to view the complete dataset used to train the model, promoting transparency and providing valuable data for reference.
+
 Responsive Design: The interface is designed to be accessible on both desktop and mobile devices.
 
 ## 📊 About the Dataset
@@ -25,40 +28,26 @@ pH: pH value of the soil.
 Rainfall: Rainfall in mm.
 💥Label: The target variable, representing one of 22 different crop types (e.g., Rice, Maize, Chickpea, Coffee, etc.).
 
-💻 Technology Stack
+## 💻 Technology Stack
 This project is built using a combination of backend, frontend, and machine learning technologies:
 Backend:
 Python: The core programming language for the application logic and machine learning.
+
 Flask: A lightweight micro web framework used to build the web server and handle requests.
+
 Pandas & NumPy: Used for data manipulation, loading the dataset, and numerical operations.
 
 Frontend:
 HTML5: For the structure and content of the web pages.
+
 CSS3: For styling the user interface, including the responsive layout and custom fonts.
+
 Bootstrap (on Dataset page): Used for quickly styling the data table to be clean and readable.
 
 Machine Learning:
 Scikit-learn: For building and training the prediction model.
+
 Pickle: Used for serializing the trained machine learning model into a file (.pkl) so it can be loaded and used for predictions in the Flask app.
-
-📂 Project Structure
-
-├── crop-prediction-flask-app/
-│
-├── crop_trained_model.pkl      # Serialized trained machine learning model
-├── Crop_recommendation.csv     # The dataset file
-├── app.py                      # Main Flask application script
-├── model.py                    # (Optional) Script for training the model
-├── .gitignore                  # Specifies files for Git to ignore
-├── README.md                   # This README file
-│
-├── static/
-│   └── farm.jpg                # Background image
-│
-└── templates/
-    ├── index.html              # Main prediction page
-    └── dataset.html            # Dataset viewer page
-
 
 ## 🚀 Setup and Installation
 
