@@ -1,4 +1,4 @@
-# Crop Prediction Model using Machine Learning
+# 🌾Crop Prediction Model using Machine Learning
 ![Project_img.PNG](https://github.com/thorlikondasivaprasad/Crop-Prediction-Flask-App/blob/master/Project_img.PNG)
 A user-friendly web application built with Flask and Python that recommends the most suitable crop to grow based on soil and environmental conditions. This project aims to empower farmers with data-driven insights to maximize their agricultural yield and profitability.
 
@@ -33,23 +33,26 @@ Rainfall: Rainfall in mm.
 ## 💻 Technology Stack
 This project is built using a combination of backend, frontend, and machine learning technologies:
 Backend:
-Python: The core programming language for the application logic and machine learning.
 
-Flask: A lightweight micro web framework used to build the web server and handle requests.
+💫Python: The core programming language for the application logic and machine learning.
 
-Pandas & NumPy: Used for data manipulation, loading the dataset, and numerical operations.
+💫Flask: A lightweight micro web framework used to build the web server and handle requests.
+
+💫Pandas & NumPy: Used for data manipulation, loading the dataset, and numerical operations.
 
 Frontend:
-HTML5: For the structure and content of the web pages.
 
-CSS3: For styling the user interface, including the responsive layout and custom fonts.
+🎇HTML5: For the structure and content of the web pages.
 
-Bootstrap (on Dataset page): Used for quickly styling the data table to be clean and readable.
+🎇CSS3: For styling the user interface, including the responsive layout and custom fonts.
+
+🎇Bootstrap (on Dataset page): Used for quickly styling the data table to be clean and readable.
 
 Machine Learning:
-Scikit-learn: For building and training the prediction model.
 
-Pickle: Used for serializing the trained machine learning model into a file (.pkl) so it can be loaded and used for predictions in the Flask app.
+✨Scikit-learn: For building and training the prediction model.
+
+✨Pickle: Used for serializing the trained machine learning model into a file (.pkl) so it can be loaded and used for predictions in the Flask app.
 
 ## 🚀 Setup and Installation
 
@@ -59,7 +62,7 @@ git clone [https://github.com/your-username/your-repo-name.git](https://github.c
 cd your-repo-name
 
 
-### Create a Virtual Environment
+## Create a Virtual Environment
 It's recommended to create a virtual environment to manage project dependencies.
 
 ### For Windows
@@ -72,7 +75,7 @@ source venv/bin/activate
 
 ### Install Dependencies
 You will need to create a requirements.txt file containing the necessary libraries.
-requirements.txt:
+✨requirements.txt:
 Flask
 numpy
 pandas
