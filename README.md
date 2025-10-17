@@ -1,5 +1,5 @@
 # Crop Prediction Model using Machine Learning
-!(Project_img.png)
+!(Project_img.PNG)
 A user-friendly web application built with Flask and Python that recommends the most suitable crop to grow based on soil and environmental conditions. This project aims to empower farmers with data-driven insights to maximize their agricultural yield and profitability.
 
 ## 🌾 The Problem it Solves
